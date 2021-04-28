@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <section>
+       <div class="box">
+           <div class="container">
+               <div class="form">
+                   <h2>Registration form</h2>
+                    <form action="#">
+                        <div class="name" style="display: flex;">
+                            <div style="float: left; margin-right: 10px;" class="inputBox w-md-45 w-sm-100">
+                                <input type="text" placeholder="First Name" required="required">
+                            </div>
+                            <div style="float: right;" class="inputBox w-md-45 w-sm-100">
+                                <input type="text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="inputBox">
+                            <input type="date" placeholder="DOB" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" placeholder="College Name">
+                        </div>
+                        <div class="inputBox">
+                            <select name="Year" id="">
+                              <option value="1st year">1st year</option>
+                              <option value="2nd year">2nd year</option>
+                              <option value="3rd year">3rd year</option>
+                              <option value="4th year">4th year</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Department">
+                        </div>
+                        <div class="inputBox">
+                            <input type="tel" pattern="[6-9]{1}[0-9]{9}" placeholder="Contact Number" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" placeholder="Email address" required>
+                        </div>
+
+                        <div class="inputBox">
+                             <input type="password" placeholder="Set Password" required>
+                        </div>
+                        <div class="inputBox">
+                             <input type="submit" value="Register">
+                       </div>
+ 
+                    </form>
+               </div>
+           </div>
+       </div>
+    </section>
+    
+</body>
+</html>
