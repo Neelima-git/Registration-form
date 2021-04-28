@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(img/bg.jpg);
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -61,6 +65,10 @@ section{
     margin-top: 20px;
 }
 
+.form .inputBox:hover{
+    background: rgba(255,255,255,0.7);
+}
+
 .form .inputBox input{
     width: 100%;
     background: rgba(255,255,255,0.5);
@@ -75,6 +83,13 @@ section{
     letter-spacing: 1px;
     color:rgb(68, 49, 49);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form .terms .inputBox::checkbox{
+    margin: 10px;
+    padding: auto;
+    padding-bottom: 2px;
+    /* background: rgba(255,255,255,0.5); */
 }
 
 .form .inputBox select {
@@ -110,4 +125,24 @@ section{
     .container{
         width: 94%;
     }
+}
+
+.terms{
+    margin-top: 10px;
+    color: rgb(235, 222, 222);
+    font-weight: bold;
+}
+
+.terms a{
+    color: #fff;
+    font-weight: 600;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+    margin-bottom: 0px;
+    padding: 3px;
 }
