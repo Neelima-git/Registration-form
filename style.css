@@ -63,7 +63,7 @@ section{
 
 .form .inputBox input{
     width: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.5);
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -79,12 +79,12 @@ section{
 
 .form .inputBox select {
     width: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.5);
     border: none;
     outline: none;
     padding: 10px 20px;
     border-radius: 5px;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.5);
     border-right: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(255,255,255,0.2);
     font-size: 16px;
@@ -104,8 +104,4 @@ section{
     cursor: pointer;
     margin-bottom: 20px;
     font-weight: 600;
-}
-
-.form div .inputBox {
-    color: #fff;
 }
